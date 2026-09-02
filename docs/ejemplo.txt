@@ -1,0 +1,15 @@
+Este es un documento de ejemplo para probar el chatbot RAG.
+
+El proyecto se llama "Chatbot con tus documentos". Fue creado como proyecto de portafolio
+para aprender los fundamentos de RAG (Retrieval-Augmented Generation): un sistema que
+responde preguntas basándose en documentos propios en lugar de solo el conocimiento
+general del modelo de lenguaje.
+
+El stack usado es completamente gratuito:
+- Groq como proveedor del LLM (modelo Llama 3.3 70B), con una capa gratuita generosa.
+- sentence-transformers para generar embeddings, que corre localmente sin costo.
+- ChromaDB como base de datos vectorial local.
+- Streamlit para la interfaz de chat, con hosting gratuito en Streamlit Community Cloud.
+
+Para agregar tus propios documentos, coloca archivos .pdf, .txt o .md en la carpeta 'docs/'
+y vuelve a correr 'python ingest.py'.
