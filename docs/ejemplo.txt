@@ -6,7 +6,7 @@ responde preguntas basándose en documentos propios en lugar de solo el conocimi
 general del modelo de lenguaje.
 
 El stack usado es completamente gratuito:
-- Groq como proveedor del LLM (modelo Llama 3.3 70B), con una capa gratuita generosa.
+- Groq como proveedor del LLM (modelo GPT-OSS 120B), con una capa gratuita generosa.
 - sentence-transformers para generar embeddings, que corre localmente sin costo.
 - ChromaDB como base de datos vectorial local.
 - Streamlit para la interfaz de chat, con hosting gratuito en Streamlit Community Cloud.

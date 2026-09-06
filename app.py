@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DB_DIR = "chroma_db"
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 st.set_page_config(page_title="Chatbot con tus documentos", page_icon="📄")
 st.title("📄 Chatbot con tus documentos")

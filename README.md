@@ -5,7 +5,7 @@ usando un pipeline RAG (Retrieval-Augmented Generation). 100% gratuito.
 
 ## Stack
 
-- **LLM**: [Groq](https://console.groq.com) (Llama 3.3 70B) — capa gratuita, sin tarjeta de crédito
+- **LLM**: [Groq](https://console.groq.com) (GPT-OSS 120B) — capa gratuita, sin tarjeta de crédito
 - **Embeddings**: `sentence-transformers` — corre localmente, sin costo ni API
 - **Base vectorial**: ChromaDB — local, sin servidor externo
 - **Interfaz**: Streamlit
